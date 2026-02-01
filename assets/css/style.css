@@ -1171,7 +1171,8 @@ height: 300px
 }
 /*-----------------------[ 12.Section Seven CSS ]------------------------*/
 .section-seven {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/cleaning.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../cleaning.jpg');
+  
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1355,7 +1356,7 @@ height: 300px
 }
 /*-----------------------[ 14.Section Nine CSS ]------------------------*/
 .curved-section {
-    background-image: linear-gradient(to left top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/join-us.jpg');
+    background-image: linear-gradient(to left top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../join-us.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -2750,7 +2751,7 @@ input:checked+.slid-btn:before {
 }
 
 #tenancy-bg {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('/assets/cleaning-services-img.jpg');
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('../cleaning-services-img.jpg');
    background-size: 100% auto;
    background-repeat: no-repeat;
    background-size: cover;
@@ -2758,7 +2759,7 @@ input:checked+.slid-btn:before {
 }
 
 #air-bg {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('/assets/hallway.jpg');
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('../hallway.jpg');
    background-size: 100% auto;
    background-repeat: no-repeat;
    background-size: cover;
@@ -2766,18 +2767,18 @@ input:checked+.slid-btn:before {
 }
 
 #pricing-bg {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('/assets/officeclean.jpg');
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('../officeclean.jpg');
 }
 
 #residential-bg {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('/assets/residential.jpg');
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('../residential.jpg');
    background-size: 100% auto;
    background-repeat: no-repeat;
    background-size: cover;
    background-position: 20% 50%;
 }
 #get-quote-bg {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('/assets/mirror.jpg');
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('../mirror.jpg');
 
    background-repeat: no-repeat;
 
@@ -2793,7 +2794,7 @@ input:checked+.slid-btn:before {
 
 #about-bg {
 
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('/assets/us.png');
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('../us.png');
 
       background-size: cover;
        background-repeat: no-repeat;
@@ -2813,7 +2814,7 @@ input:checked+.slid-btn:before {
 }
 
 #commerical-bg {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('/assets/building.jpg');
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('../building.jpg');
    background-size: 100% auto;
    background-repeat: no-repeat;
    background-size: cover;
@@ -2821,7 +2822,7 @@ input:checked+.slid-btn:before {
 }
 
 #deep-bg {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('/assets/sponges.jpg');
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('../sponges.jpg');
    background-size: 100% auto;
    background-repeat: no-repeat;
    background-size: cover;
