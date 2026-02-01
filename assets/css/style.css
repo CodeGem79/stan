@@ -344,6 +344,7 @@ header {
 }
 .menu {
     flex-grow: 1;
+    color: black
 }
 .menu-list {
     display: flex;
@@ -351,9 +352,11 @@ header {
     align-items: flex-start;
     justify-content: flex-end;
     padding-right: 40px;
+
 }
 .menu-list li {
     position: relative;
+
 }
 .menu-list a {
     color: var(--4, #222);
@@ -428,8 +431,8 @@ header {
 }
 .menu-text.active,
 .submenu-link.active {
-    background:  #1b1918;
-    color: #FFF;
+    background:  #000000;
+
 }
 .wrapper.wrapper-men.active .menu-text {
     /* filter: brightness(0) saturate(100%) invert(40%) sepia(84%) saturate(1312%) hue-rotate(348deg) brightness(98%) contrast(93%); */
@@ -550,7 +553,10 @@ header {
 }
 .sec-oneimg1 {
     position: relative;
-    bottom: -36px;
+
+    height: 80vh;
+    left: 800;
+
 }
 /*-----------------------[ Button CSS ]------------------------*/
 .sec-one-buttons {
@@ -684,6 +690,10 @@ header {
 .section-two {
     padding: 100px 0;
 }
+
+.section-one{
+    position: relative;
+}
 .handyman-text {
     color: var(--3, #000);
     font-size: 48px;
@@ -711,6 +721,7 @@ header {
     position: absolute;
     right: 0;
     bottom: 0;
+height: 300px
 }
 .highQulity-box-row {
     margin: 60px 0 0 0;
@@ -1014,7 +1025,7 @@ header {
 
     font-size: 30px;
     color: #aeb912;
-   
+
 }
 .number-circel {
     width: 60px;
@@ -1099,7 +1110,7 @@ header {
     left: 20px;
     right: 20px;
     bottom: 20px;
-    background: var(--2, #fbbe00);
+    background: var(--2, #2e2a1f);
     mix-blend-mode: multiply;
     transition: all 0.5s ease-in-out;
     transform: scale(0);
@@ -1107,6 +1118,8 @@ header {
 }
 .img-wrapper:hover .overlay {
     transform: scale(1);
+
+
 }
 .img-wrapper .overlay-text {
     position: absolute;
@@ -1124,7 +1137,7 @@ header {
     opacity: 1;
 }
 .overlay-text p {
-    color: var(--5, #FFF);
+       color: var(--2, #fbbe00);
     text-align: center;
     font-size: 24px;
     font-style: normal;
@@ -1158,7 +1171,7 @@ header {
 }
 /*-----------------------[ 12.Section Seven CSS ]------------------------*/
 .section-seven {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/home-page/free-contact-img.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/cleaning.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1342,14 +1355,14 @@ header {
 }
 /*-----------------------[ 14.Section Nine CSS ]------------------------*/
 .curved-section {
-    background-image: linear-gradient(to left top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/home-page/highest-rated.jpg');
+    background-image: linear-gradient(to left top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/join-us.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     position: relative;
     background-color: black;
-    height: 100%;
+    height: 90%;
     padding: 100px 0;
 }
 .curved-section::before {
@@ -1384,13 +1397,13 @@ header {
 /* 1. Define the size you WANT on the screen */
 width: 100%;
     height: 500px; /* Adjust this to the height you want */
-    
+
     /* 2. Link the image */
     background-image: url('assets/cleaner.png');
-    
+
 
 }
- 
+
 
 
 
@@ -1792,14 +1805,13 @@ button.bottom-top-button:hover {
 #about-sec-img1 {
     margin-bottom: 50px;
 }
-#about-bg {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('../images/about-page/page-header-img.jpg');
-}
+
 .page-img-header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 150px 0;
+    /* background-image: url('assets/cleaner.png'); */
 }
 .img-header-text {
     color: var(--5, #FFF);
@@ -2058,9 +2070,7 @@ button.bottom-top-button:hover {
     color: #fbbe00;
 }
 /*-----------------------[ 23.Pricing Page CSS ]------------------------*/
-#pricing-bg {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('../images/pricing-page/header-imgPricing.jpg');
-}
+
 .toggle-container {
     display: flex;
     align-items: center;
@@ -2228,9 +2238,7 @@ input:checked+.slid-btn:before {
     background-color: rgba(241, 97, 34, 0.1);
 }
 /*-----------------------[ 24.Get Quote Page CSS ]------------------------*/
-#get-quote-bg {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('../images/get-qoute-page/header-img.jpg');
-}
+
 #get-quote-curved-section {
     margin-top: 230px;
 }
@@ -2650,7 +2658,7 @@ input:checked+.slid-btn:before {
 .single-services-sub-box ul li a:hover {
        color:#fbbe00
     /* filter: brightness(0) saturate(100%) invert(42%) sepia(92%) saturate(1205%) hue-rotate(346deg) brightness(96%) contrast(97%); */
-} 
+}
 .current-page-active {
        color:#fbbe00
     /* filter: brightness(0) saturate(100%) invert(42%) sepia(92%) saturate(1205%) hue-rotate(346deg) brightness(96%) contrast(97%); */
@@ -2690,7 +2698,7 @@ input:checked+.slid-btn:before {
     height: 80%;
     object-fit: cover;
     justify-content: center;
-  
+
 
 
 
@@ -2734,8 +2742,92 @@ input:checked+.slid-btn:before {
     background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('../images/services-page/header-img.jpg');
 }
 #cleaning-service-bg {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('../images/services-page/cleaning-services-img.jpg');
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('/assets/sponges.jpg');
+   background-size: 100% auto;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 20% 50%;
 }
+
+#tenancy-bg {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('/assets/cleaning-services-img.jpg');
+   background-size: 100% auto;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+#air-bg {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('/assets/hallway.jpg');
+   background-size: 100% auto;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 20% 50%;
+}
+
+#pricing-bg {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('/assets/officeclean.jpg');
+}
+
+#residential-bg {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('/assets/residential.jpg');
+   background-size: 100% auto;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 20% 50%;
+}
+#get-quote-bg {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('/assets/mirror.jpg');
+
+   background-repeat: no-repeat;
+
+  
+   background-size:cover
+   /* transform: scaleX(-1); */
+
+}
+
+
+
+
+
+#about-bg {
+
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('/assets/us.png');
+
+      background-size: cover;
+       background-repeat: no-repeat;
+
+}
+
+#join-bg {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('../cleaning-services-img3.jpg');
+
+
+}
+
+#contact-bg {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('../contact.jpg');
+    background-position: top;
+
+}
+
+#commerical-bg {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('/assets/building.jpg');
+   background-size: 100% auto;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 20% 50%;
+}
+
+#deep-bg {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('/assets/sponges.jpg');
+   background-size: 100% auto;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 20% 50%;
+}
+
 #air-service-bg {
     background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('../images/services-page/air-services-img.jpg');
 }
@@ -3195,9 +3287,7 @@ input:checked+.slid-btn:before {
     -webkit-line-clamp: 3;
 }
 /*-----------------------[ 37.Contact Page CSS ]------------------------*/
-#conatct-bg {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 27.86%, rgba(0, 0, 0, 0.00) 100%), url('../images/contact-page/header-img.jpg');
-}
+
 .contact-deatils-head .headphone-white {
     background: rgba(var(--3, 0, 0, 0), 0.1);
 }
